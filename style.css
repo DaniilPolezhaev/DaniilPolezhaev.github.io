@@ -66,74 +66,47 @@ nav {
     margin: 40px 28px 0px 14px;
 }
 
-    .me {
-        text-align: center;
-        background: url('../img/boyme.png') no-repeat 50% 40%;
-    }
-    
-    .me h2 {
-        margin-top: 34px;
-    }
-    
-    .me p {
-        margin-top: 101px;
-        color: #3f495a;
-        font-size: 16px;
-    }
-    
-    .me h2 {
-        font-size: 28px;
-    }
-    
-    .me input {
-        margin-top: 10px;
-        border-radius: 5px;
-        border: 2px solid #6d7682;
-        color: #6d7682;
-        background: none;
-        padding-left: 20px;
-        
-    }
-  
-    .skills {
-        text-align: center;
-      }
-      
-      .hr {
-        height: 9px;
-      }
-      
-      .veb {
-        float: left;
-        line-height: 111px;
-        padding-left: 152px;
-        
-      } 
-      
-      .logo {
-        font-size: 20px;
-        padding-top: 34px;
-      }
-      
-      .skill h3 {
-        color: #cf7600;
-      }
-      
-      .skill {
-        float: left;
-        padding-left: 400px;
-        background: url('../img/noyt.png') no-repeat 37% 40%;
-      }
-      
-      .skill li {
-        padding-top: 110px;
-        float: left;
-        margin-right: 70px;
-        font-size: 16px;
-        list-style-type: none;
-      }
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html, body{
+height:100%;
+width:100%;
+font-size 100%;
+line-height: 1;
+font-size:14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;
+} 
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;} 
+button::-moz-focus-inner{padding: 0; border:0;} 
+a, a:visited{text-decoration: none; color: black;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;} 
+img{vertical-align: top;}
 
 
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 
 
